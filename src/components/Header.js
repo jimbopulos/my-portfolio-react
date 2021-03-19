@@ -12,6 +12,9 @@ function Header() {
         <Link to='/aboutme'>About Me</Link>
       </li>
       <li>
+        <Link to='/contact'>Contact</Link>
+      </li>
+      <li>
         <Link to='/projects'>Projects</Link>
       </li>
     </ul>
