@@ -5,7 +5,7 @@ function MyProjects() {
     <div>
       <h2>My Projects</h2>
       <ul>
-        // project components will go here
+        {/* project components will go here */}
         <li>Proj1</li>
         <li>Proj2</li>
         <li>Proj3</li>
