@@ -1,20 +1,31 @@
-// import Project from './components/Project';
+import React, { Component } from 'react';
+import Project from './Project';
+import projects from '../projects.json';
 
-function MyProjects() {
-  return (
-    <div>
-      <h2>My Projects</h2>
-      <ul>
-        {/* project components will go here */}
-        {/* <Project />
-        <Project />
-        <Project /> */}
-        <li>Proj1</li>
-        <li>Proj2</li>
-        <li>Proj3</li>
-      </ul>
-    </div>
-  );
+class MyProjects extends Component {
+  state = {
+    projects,
+  };
+
+  render() {
+    return (
+      <div>
+        <h2>My Projects</h2>
+        <div className='container'>
+          {this.state.projects.map((project) => (
+            <Project
+              key={project.id}
+              id={project.id}
+              title={project.title}
+              image={project.image}
+              url={project.url}
+              repo={project.repository}
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
 }
 
 export default MyProjects;
