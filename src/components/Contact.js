@@ -1,34 +1,47 @@
 function Contact() {
   return (
     <div className='container'>
-      <h2>Contact Me</h2>
-      <ul>
-        <li>Phone: 1 (631) 374-0059</li>
-        <li>
-          Email:{' '}
+      <div className='card'>
+        <h2>Contact Me</h2>
+        <h5>
+          <i className='fas fa-phone-alt'></i> 1 (631) 374-0059
+        </h5>
+        <h5>
           <a className='my-link' href='mailto:james.mgalantino@gmail.com'>
-            james.mgalantino@gmail.com
+            <i className='far fa-envelope'></i> james.mgalantino@gmail
           </a>
-        </li>
-        <li>
-          <a className='my-link' href='documents/James-G-Resume-Mar2021.pdf'>
-            Resume
+        </h5>
+        <h5>
+          <a
+            className='my-link'
+            href='https://github.com/jimbopulos'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fab fa-github'></i> GitHub
           </a>
-        </li>
-        <li>
-          <a className='my-link' href='https://github.com/jimbopulos'>
-            GitHub
-          </a>
-        </li>
-        <li>
+        </h5>
+        <h5>
           <a
             className='my-link'
             href='https://www.linkedin.com/in/james-galantino-0aab6a16a/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
-            LinkedIn
+            <i className='fab fa-linkedin'></i> LinkedIn
           </a>
-        </li>
-      </ul>
+        </h5>
+        <h5>
+          <a
+            className='my-link'
+            href='documents/James-G-Resume-Mar2021.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='far fa-file-alt'></i> Resume
+          </a>
+        </h5>
+      </div>
     </div>
   );
 }

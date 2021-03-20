@@ -15,7 +15,7 @@ class MyProjects extends Component {
   render() {
     return (
       <div className='container'>
-        <h2>My Projects</h2>
+        <h2>What I've Been Working On</h2>
         <div>
           {this.state.projects.map((project) => (
             <Project
