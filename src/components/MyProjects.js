@@ -16,7 +16,7 @@ class MyProjects extends Component {
     return (
       <div className='container'>
         <h2>My Projects</h2>
-        <div className='container'>
+        <div>
           {this.state.projects.map((project) => (
             <Project
               key={project.id}

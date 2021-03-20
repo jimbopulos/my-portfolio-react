@@ -9,6 +9,7 @@ function Project(props) {
         </div>
         <div className='img-container'>
           <img
+            className='rounded img-fluid'
             src={props.image}
             alt={props.title}
             // onClick={() => props.handleClick()}
@@ -17,9 +18,9 @@ function Project(props) {
         <div className='info'>
           <ul>
             <li>
-              Access deployed application URL here:{' '}
+              Access deployed application URL{' '}
               <a className='my-link' href={props.url}>
-                {props.title}
+                here
               </a>
             </li>
             <li>

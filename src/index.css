@@ -4,12 +4,41 @@
   box-sizing: border-box;
   font-family: 'Source Code Pro', monospace;
   font-size: large;
-  background: rgb(17, 17, 17);
+  background: rgb(42, 42, 42);
   color: lime;
 }
 
 body {
   margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 2%;
+}
+
+a {
+  color: lime;
+}
+
+img {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  border: 2px solid white;
+  box-shadow: -9px 9px 13px black;
+}
+
+.card {
+  border: 3px solid white;
+  box-shadow: -9px 9px 13px black;
+  border-radius: 8px;
+}
+
+.img-fluid {
+  max-width: 75%;
 }
 
 .nav-item:hover {
@@ -24,12 +53,21 @@ body {
   color: rgb(17, 17, 17);
 }
 
+.nav-link.active {
+  color: rgb(17, 17, 17) !important;
+}
+
 .container {
   text-align: center;
 }
 
-a {
-  color: lime;
+.card {
+  margin-top: 3%;
+}
+
+.img-container {
+  height: 60%;
+  overflow: hidden;
 }
 
 .my-link:hover {
