@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div>
+    <div className='container'>
       <h2>Contact Me</h2>
       <ul>
         <li>Phone: 1 (631) 374-0059</li>
