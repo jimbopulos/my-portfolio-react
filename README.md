@@ -13,6 +13,7 @@ Welcome to my responsive portfolio page!
 ## Technology
 
 - React.js
+- React Router
 - CSS + Bootstrap framework
 
 ## Deployed URL
