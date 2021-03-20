@@ -16,13 +16,15 @@ body {
 
 h1,
 h2,
-h3,
-h6 {
+h3 {
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 h5 {
   margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 h6 {
@@ -34,6 +36,7 @@ h6 {
 
 a {
   color: lime;
+  text-decoration: none;
 }
 
 img {
@@ -89,9 +92,11 @@ img {
 .card {
   box-shadow: -9px 9px 13px black;
   border: 2px dotted #505050;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: rgb(42, 42, 42);
   margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
   /* border: 1px solid white; */
 }
 
