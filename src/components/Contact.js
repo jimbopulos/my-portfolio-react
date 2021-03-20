@@ -12,7 +12,12 @@ function Contact() {
           </a>
         </h5>
         <h5>
-          <a className='my-link' href='https://github.com/jimbopulos'>
+          <a
+            className='my-link'
+            href='https://github.com/jimbopulos'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <i className='fab fa-github'></i> GitHub
           </a>
         </h5>
@@ -20,12 +25,19 @@ function Contact() {
           <a
             className='my-link'
             href='https://www.linkedin.com/in/james-galantino-0aab6a16a/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <i className='fab fa-linkedin'></i> LinkedIn
           </a>
         </h5>
         <h5>
-          <a className='my-link' href='documents/James-G-Resume-Mar2021.pdf'>
+          <a
+            className='my-link'
+            href='documents/James-G-Resume-Mar2021.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <i className='far fa-file-alt'></i> Resume
           </a>
         </h5>

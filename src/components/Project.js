@@ -18,13 +18,23 @@ function Project(props) {
         <div className='info'>
           <h6>
             Access deployed application URL{' '}
-            <a className='my-link' href={props.url}>
+            <a
+              className='my-link'
+              href={props.url}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               here <i className='fas fa-external-link-alt'></i>
             </a>
           </h6>
           <h6>
             Access the {props.title} repository{' '}
-            <a className='my-link' href={props.repo}>
+            <a
+              className='my-link'
+              href={props.repo}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               here <i className='fas fa-external-link-alt'></i>
             </a>
           </h6>
