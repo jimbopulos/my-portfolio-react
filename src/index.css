@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+  font-size: large;
+  background: rgb(17, 17, 17);
+  color: lime;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+}
+
+.nav-item:hover {
+  background: lime;
+}
+
+.nav-link {
+  color: lime;
+}
+
+.nav-link:hover {
+  color: rgb(17, 17, 17);
+}
+
+.container {
+  text-align: center;
+}
+
+a {
+  color: lime;
+}
+
+.my-link:hover {
+  color: rgb(17, 17, 17);
+  background-color: lime;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.mt-auto {
+  margin-top: auto !important;
+}
+
+footer {
+  display: block;
 }

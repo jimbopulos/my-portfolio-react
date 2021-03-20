@@ -2,17 +2,30 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <div>
+    <div className='container'>
       <h2>About Me</h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam
-        consequuntur vitae eveniet quas est quibusdam laborum, qui eum quasi
-        praesentium voluptate non saepe sed eaque autem libero reiciendis, hic
-        accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Veniam voluptatum nemo, dolorem dicta et tempore nihil dolorum aliquam
-        hic, mollitia recusandae minus numquam id ipsam atque suscipit. Beatae,
-        perspiciatis magni!
-      </p>
+      <h6>
+        I am interested in becoming involved in software development,
+        particularly in the context of cloud infrastructure, cybersecurity and
+        software engineering (full-stack). Certified in Microsoft Azure
+        Fundamentals (AZ-900), and a graduate of Columbia University School of
+        Engineering's Full Stack Web Developer Boot Camp.
+      </h6>
+
+      <h6>
+        I have experience in HTML/CSS Web Development, JavaScript/jQuery,
+        NodeJS, Express.js, MySQL, MongoDB, ReactJS and .NET in deploying Azure
+        resources and general infrastructure via Azure/MS PowerShell, CLI, and
+        the Cloud Shell.
+      </h6>
+
+      <h6>
+        I implement an immense focus on developing applications with responsive
+        designs that illicit pleasant user experiences. It is a firm belief of
+        mine that there is nothing more important in the rapidly morphing world
+        of tech than the ability for a user to have a genuine interaction, and
+        utility, for an application.
+      </h6>
     </div>
   );
 }

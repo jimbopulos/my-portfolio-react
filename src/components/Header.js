@@ -1,21 +1,47 @@
 import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
-  // const location = useLocation();
+  const location = useLocation();
 
   return (
-    <ul>
-      <li>
-        <Link to='/'>Home</Link>
+    <ul className='nav nav-tabs justify-content-end'>
+      <li className='nav-item'>
+        <Link
+          to='/'
+          className={location.pathname === '/' ? 'nav-link active' : 'nav-link'}
+        >
+          Home
+        </Link>
       </li>
-      <li>
-        <Link to='/aboutme'>About Me</Link>
+      <li className='nav-item'>
+        <Link
+          to='/aboutme'
+          className={
+            location.pathname === '/aboutme' ? 'nav-link active' : 'nav-link'
+          }
+        >
+          About Me
+        </Link>
       </li>
-      <li>
-        <Link to='/contact'>Contact</Link>
+      <li className='nav-item'>
+        <Link
+          to='/contact'
+          className={
+            location.pathname === '/contact' ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Contact
+        </Link>
       </li>
-      <li>
-        <Link to='/projects'>Projects</Link>
+      <li className='nav-item'>
+        <Link
+          to='/projects'
+          className={
+            location.pathname === '/projects' ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Projects
+        </Link>
       </li>
     </ul>
   );

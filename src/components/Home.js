@@ -2,17 +2,14 @@ import React from 'react';
 
 function Home() {
   return (
-    <div>
-      <h1>Welcome, I'm James Galantino</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquam
-        tenetur quam quidem, aut nemo fuga unde sequi voluptas reiciendis dolore
-        corrupti, architecto harum! Officia expedita placeat dolore minima
-        eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Impedit dicta commodi odit eos aliquam atque eveniet expedita explicabo
-        harum dolor ea illo illum exercitationem, iure reprehenderit a ex,
-        delectus voluptatem.
-      </p>
+    <div className='container'>
+      <h1>James Galantino</h1>
+      <h3>Welcome to my portfolio</h3>
+      <h6>
+        I'm a Full Stack developer, coming onto the scene with a creative
+        background in music, art, and a passion for bringing clear and valuable
+        applications to the people.
+      </h6>
     </div>
   );
 }

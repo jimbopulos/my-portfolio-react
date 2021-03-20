@@ -1,19 +1,32 @@
 function Contact() {
   return (
-    <div>
+    <div className='container'>
       <h2>Contact Me</h2>
       <ul>
+        <li>Phone: 1 (631) 374-0059</li>
         <li>
-          <a href='#'>Email</a>
+          Email:{' '}
+          <a className='my-link' href='mailto:james.mgalantino@gmail.com'>
+            james.mgalantino@gmail.com
+          </a>
         </li>
         <li>
-          <a href='#'>Resume</a>
+          <a className='my-link' href='documents/James-G-Resume-Mar2021.pdf'>
+            Resume
+          </a>
         </li>
         <li>
-          <a href='#'>GitHub</a>
+          <a className='my-link' href='https://github.com/jimbopulos'>
+            GitHub
+          </a>
         </li>
         <li>
-          <a href='#'>LinkedIn</a>
+          <a
+            className='my-link'
+            href='https://www.linkedin.com/in/james-galantino-0aab6a16a/'
+          >
+            LinkedIn
+          </a>
         </li>
       </ul>
     </div>
