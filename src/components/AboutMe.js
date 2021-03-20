@@ -14,7 +14,7 @@ function AboutMe() {
 
       <h6>
         I have experience in HTML/CSS Web Development, JavaScript/jQuery,
-        NodeJS, Express.js, MySQL, MongoDB, ReactJS and .NET in deploying Azure
+        NodeJS, Express.js, MySQL, MongoDB, ReactJS, and .NET in deploying Azure
         resources and general infrastructure via Azure/MS PowerShell, CLI, and
         the Cloud Shell.
       </h6>

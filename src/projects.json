@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Pipe Cleaner app",
+    "title": "Pipe Cleaner",
     "image": "images/PipeCleaner-app.png",
     "url": "https://four-top.herokuapp.com/",
     "repository": "https://github.com/benrgross/Party-Of-Four"
   },
   {
     "id": 2,
-    "title": "Rec app",
+    "title": "Rec",
     "image": "images/Rec-app-home.png",
     "url": "https://jimbopulos.github.io/rec-app/",
     "repository": "https://github.com/jimbopulos/rec-app"
   },
   {
     "id": 3,
-    "title": "Day Planner app",
+    "title": "Day Planner",
     "image": "images/Day-Planner-Mobile.png",
     "url": "https://jimbopulos.github.io/day-planner/",
     "repository": "https://github.com/jimbopulos/day-planner"
   },
   {
     "id": 4,
-    "title": "Eat Da Burger app",
+    "title": "Eat Da Burger",
     "image": "images/Eat-Da-Burger-app.png",
     "url": "https://eat-burgerlist-app.herokuapp.com/",
     "repository": "https://github.com/jimbopulos/Eat-Da-Burger-app"
   },
   {
     "id": 5,
-    "title": "Employee Directory app",
+    "title": "Employee Directory",
     "image": "images/user-directory.png",
     "url": "https://jimbopulos.github.io/employee-directory/",
     "repository": "https://github.com/jimbopulos/employee-directory"
   },
   {
     "id": 6,
-    "title": "Build-a-Budget app",
+    "title": "Build-a-Budget",
     "image": "images/build-a-budget-app.png",
     "url": "https://budget-tracker-116.herokuapp.com/",
     "repository": "https://github.com/jimbopulos/build-a-budget"
