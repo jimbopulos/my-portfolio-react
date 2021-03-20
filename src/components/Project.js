@@ -9,11 +9,15 @@ function Project(props) {
           <img
             src={props.image}
             alt={props.title}
-            onClick={() => props.activateURL()}
+            // onClick={() => props.handleClick()}
           />
         </div>
         <div className='info'>
           <ul>
+            <li>
+              Access deployed application URL here:{' '}
+              <a href={props.url}>{props.title}</a>
+            </li>
             <li>
               Access the {props.title} repository <a href={props.repo}>here</a>
             </li>

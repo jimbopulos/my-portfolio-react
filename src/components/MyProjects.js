@@ -7,9 +7,9 @@ class MyProjects extends Component {
     projects,
   };
 
-  // activateURL = (e) => {
-  //   e.preventDefault();
-  //   e.target.value;
+  // handleClick = () => {
+  //   // console.log(props.url);
+  //   // window.open(project.url);
   // };
 
   render() {
@@ -25,7 +25,7 @@ class MyProjects extends Component {
               image={project.image}
               url={project.url}
               repo={project.repository}
-              activateURL={this.activateURL}
+              // handleClick={this.handleClick}
             />
           ))}
         </div>
