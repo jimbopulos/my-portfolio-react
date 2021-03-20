@@ -20,7 +20,7 @@ function Header() {
             location.pathname === '/aboutme' ? 'nav-link active' : 'nav-link'
           }
         >
-          About Me
+          About
         </Link>
       </li>
       <li className='nav-item'>
