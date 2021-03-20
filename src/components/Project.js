@@ -4,7 +4,9 @@ function Project(props) {
   return (
     <div>
       <div className='card'>
-        <h3>{props.title}</h3>
+        <div>
+          <h3>{props.title}</h3>
+        </div>
         <div className='img-container'>
           <img
             src={props.image}
@@ -16,10 +18,15 @@ function Project(props) {
           <ul>
             <li>
               Access deployed application URL here:{' '}
-              <a href={props.url}>{props.title}</a>
+              <a className='my-link' href={props.url}>
+                {props.title}
+              </a>
             </li>
             <li>
-              Access the {props.title} repository <a href={props.repo}>here</a>
+              Access the {props.title} repository{' '}
+              <a className='my-link' href={props.repo}>
+                here
+              </a>
             </li>
           </ul>
         </div>

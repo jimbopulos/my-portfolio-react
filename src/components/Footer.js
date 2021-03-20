@@ -1,8 +1,10 @@
 function Footer() {
   return (
-    <div>
-      <footer>JMG</footer>
-    </div>
+    <footer className='footer mt-auto py-3'>
+      <div className='container'>
+        <span>JMG</span>
+      </div>
+    </footer>
   );
 }
 
