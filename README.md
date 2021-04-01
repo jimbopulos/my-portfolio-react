@@ -20,7 +20,7 @@ Welcome to my responsive portfolio page!
 
 Access my personal Portfolio:
 
-- [Portfolio URL](https://thawing-basin-29840.herokuapp.com/)
+- [Portfolio URL](https://james-galantino-portfolio.herokuapp.com/)
 
 ## License
 
