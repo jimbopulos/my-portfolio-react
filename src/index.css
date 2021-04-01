@@ -49,6 +49,7 @@ a {
   margin-right: 5%; */
   /* border: 2px solid white; */
   box-shadow: -9px 9px 13px black;
+  border-radius: 3px;
 }
 
 .container-wrapper {
@@ -104,7 +105,7 @@ a {
   background: lime;
   color: rgb(17, 17, 17);
   /* border: 1px solid rgb(17, 17, 17); */
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .nav-link {
