@@ -41,7 +41,7 @@ a {
   text-decoration: none;
 }
 
-img {
+.project-img {
   margin-top: 4%;
   margin-bottom: 4%;
   /* margin-left: 5%;
@@ -67,6 +67,22 @@ img {
 
 .img-fluid {
   max-width: 75%;
+}
+
+.emblems {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: -9px 9px 13px black;
+}
+
+.tech-icon {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-right: 2%;
+  margin-left: 2%;
+  height: 4em;
 }
 
 .nav {
