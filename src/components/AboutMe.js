@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 function AboutMe() {
   return (
-    <div className='container'>
-      <div className='card'>
+    <div className="container">
+      <div className="card">
         <h2>About Me</h2>
         <h6>
           I am interested in becoming involved in software development,
@@ -27,6 +27,34 @@ function AboutMe() {
           rapidly morphing world of tech than the ability for a user to have a
           genuine interaction, and utility, for an application.
         </h6>
+      </div>
+
+      <div className="emblems">
+        <img
+          src="http://lineadecodigo.com/wp-content/uploads/2014/04/html5.png"
+          alt="HTML5"
+          className="tech-icon"
+        />
+        <img
+          src="https://i.pinimg.com/originals/eb/7e/20/eb7e20e646f5b7ec9ed4f8f78a5dee8f.png"
+          alt="CSS3"
+          className="tech-icon"
+        />
+        <img
+          src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png"
+          alt="JS"
+          className="tech-icon"
+        />
+        <img
+          src="http://pngimg.com/uploads/mysql/small/mysql_PNG23.png"
+          alt="MySQL"
+          className="tech-icon"
+        />
+        <img
+          src="https://img.icons8.com/color/452/mongodb.png"
+          alt="MongoDB"
+          className="tech-icon"
+        />
       </div>
     </div>
   );

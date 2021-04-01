@@ -1,24 +1,24 @@
 [
   {
     "id": 1,
+    "title": "Trowel",
+    "image": "images/trowel-app.png",
+    "url": "https://trowel-app.herokuapp.com/",
+    "repository": "https://github.com/benrgross/Trowel"
+  },
+  {
+    "id": 2,
     "title": "Pipe Cleaner",
     "image": "images/PipeCleaner-app.png",
     "url": "https://four-top.herokuapp.com/",
     "repository": "https://github.com/benrgross/Party-Of-Four"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Rec",
     "image": "images/Rec-app-home.png",
     "url": "https://jimbopulos.github.io/rec-app/",
     "repository": "https://github.com/jimbopulos/rec-app"
-  },
-  {
-    "id": 3,
-    "title": "Day Planner",
-    "image": "images/Day-Planner-Mobile.png",
-    "url": "https://jimbopulos.github.io/day-planner/",
-    "repository": "https://github.com/jimbopulos/day-planner"
   },
   {
     "id": 4,
