@@ -96,6 +96,10 @@ a {
   box-shadow: -9px 9px 9px black;
 }
 
+.nav-item {
+  transition: all 0.3s ease-in-out;
+}
+
 .nav-item:hover {
   background: lime;
   color: rgb(17, 17, 17);

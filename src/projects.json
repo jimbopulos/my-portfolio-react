@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Trowel",
-    "image": "images/trowel-dashboard.png",
+    "image": "images/trowel-app.png",
     "url": "https://trowel-app.herokuapp.com/",
     "repository": "https://github.com/benrgross/Trowel"
   },
