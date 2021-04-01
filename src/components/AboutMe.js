@@ -29,7 +29,7 @@ function AboutMe() {
         </h6>
       </div>
 
-      <div className="container emblems">
+      <div className="emblems">
         <img
           src="http://lineadecodigo.com/wp-content/uploads/2014/04/html5.png"
           alt="HTML5"

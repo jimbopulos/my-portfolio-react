@@ -76,6 +76,11 @@ a {
   justify-content: space-evenly;
   flex-wrap: wrap;
   box-shadow: -9px 9px 13px black;
+  border: 2px dotted #505050;
+  border-radius: 3px;
+  background-color: rgb(42, 42, 42);
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .tech-icon {
@@ -125,7 +130,7 @@ a {
   border: 2px dotted #505050;
   border-radius: 3px;
   background-color: rgb(42, 42, 42);
-  margin-top: 3%;
+  margin-top: 4%;
   margin-left: 2%;
   margin-right: 2%;
   /* border: 1px solid white; */
