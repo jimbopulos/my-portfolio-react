@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
 * {
   box-sizing: border-box;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   /* font-size: large; */
   background: rgb(42, 42, 42);
   color: lime;
   background-color: rgb(42, 42, 42);
-  background-image: url('https://www.transparenttextures.com/patterns/subtle-dots.png');
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
 }
 
 body {
@@ -53,14 +53,14 @@ img {
   min-height: 100vh;
   margin-top: 10%;
   background-color: rgb(42, 42, 42);
-  background-image: url('https://www.transparenttextures.com/patterns/subtle-dots.png');
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
 }
 
 .container {
   text-align: center;
   /* padding-bottom: 2.5rem; */
   background-color: rgb(42, 42, 42);
-  background-image: url('https://www.transparenttextures.com/patterns/subtle-dots.png');
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
 }
 
 .img-fluid {
@@ -74,6 +74,9 @@ img {
 
 .nav-item:hover {
   background: lime;
+  color: rgb(17, 17, 17);
+  border: 1px solid rgb(17, 17, 17);
+  border-radius: 5px;
 }
 
 .nav-link {
@@ -85,8 +88,17 @@ img {
   color: rgb(17, 17, 17);
 }
 
-.nav-link.active {
-  color: rgb(17, 17, 17) !important;
+.nav-link.active.port-nav {
+  color: rgb(17, 17, 17);
+  background-color: lime;
+  border: 1px solid rgb(17, 17, 17);
+}
+
+.nav-link.active.port-nav:hover {
+  color: rgb(17, 17, 17);
+  background-color: lime;
+  border: 1px solid rgb(17, 17, 17);
+  /* border-radius: 25px; */
 }
 
 .card {
@@ -133,7 +145,7 @@ img {
   margin-right: 2%;
   text-align: center;
   background-color: rgb(42, 42, 42);
-  background-image: url('https://www.transparenttextures.com/patterns/subtle-dots.png');
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
 }
 
 .initials {
@@ -143,5 +155,5 @@ img {
 footer {
   display: block;
   background-color: rgb(42, 42, 42);
-  background-image: url('https://www.transparenttextures.com/patterns/subtle-dots.png');
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
 }
