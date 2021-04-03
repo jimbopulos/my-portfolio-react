@@ -1,44 +1,44 @@
 function Contact() {
   return (
-    <div className='container'>
-      <div className='card'>
+    <div className="container">
+      <div className="card">
         <h2>Contact Me</h2>
         <h5>
-          <i className='fas fa-phone-alt'></i> 1 (631) 374-0059
+          <i className="fas fa-phone-alt"></i> 1 (631) 374-0059
         </h5>
         <h5>
-          <a className='my-link' href='mailto:james.mgalantino@gmail.com'>
-            <i className='far fa-envelope'></i> james.mgalantino@gmail
+          <a className="my-link" href="mailto:james.mgalantino@gmail.com">
+            <i className="far fa-envelope"></i> james.mgalantino@gmail
           </a>
         </h5>
         <h5>
           <a
-            className='my-link'
-            href='https://github.com/jimbopulos'
-            target='_blank'
-            rel='noopener noreferrer'
+            className="my-link"
+            href="https://github.com/jimbopulos"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <i className='fab fa-github'></i> GitHub
+            <i className="fab fa-github"></i> GitHub
           </a>
         </h5>
         <h5>
           <a
-            className='my-link'
-            href='https://www.linkedin.com/in/james-galantino-0aab6a16a/'
-            target='_blank'
-            rel='noopener noreferrer'
+            className="my-link"
+            href="https://www.linkedin.com/in/james-galantino-0aab6a16a/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <i className='fab fa-linkedin'></i> LinkedIn
+            <i className="fab fa-linkedin"></i> LinkedIn
           </a>
         </h5>
         <h5>
           <a
-            className='my-link'
-            href='documents/James-G-Resume-Mar2021.pdf'
-            target='_blank'
-            rel='noopener noreferrer'
+            className="my-link"
+            href="documents/James-G-Resume-Mar2021-updated.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <i className='far fa-file-alt'></i> Resume
+            <i className="far fa-file-alt"></i> Resume
           </a>
         </h5>
       </div>
