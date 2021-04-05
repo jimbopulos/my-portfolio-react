@@ -34,7 +34,7 @@ function Contact() {
         <h5>
           <a
             className="my-link"
-            href="documents/James-G-Resume-Mar2021-updated.pdf"
+            href="documents/James-G-Resume-Apr2021.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
