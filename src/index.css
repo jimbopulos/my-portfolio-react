@@ -78,7 +78,7 @@ a {
   justify-content: space-evenly;
   flex-wrap: wrap;
   box-shadow: -9px 9px 13px black;
-  border: 2px dotted #666666;
+  border: 2px solid #666666;
   border-radius: 3px;
   /* background-color: rgb(42, 42, 42); */
   margin-left: 2%;
@@ -133,7 +133,7 @@ a {
 
 .card {
   box-shadow: -9px 9px 13px black;
-  border: 2px dotted #666666;
+  border: 2px solid #666666;
   border-radius: 3px;
   /* background-color: rgb(42, 42, 42); */
   background-color: black;
@@ -180,7 +180,7 @@ a {
   margin-left: 2%;
   margin-right: 2%;
   text-align: center;
-  border: 2px dotted #666666;
+  border: 2px solid #666666;
   border-radius: 3px;
   /* background-color: rgb(42, 42, 42);
   background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png"); */
