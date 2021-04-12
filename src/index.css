@@ -4,10 +4,11 @@
   box-sizing: border-box;
   font-family: "Source Code Pro", monospace;
   /* font-size: large; */
-  background: rgb(42, 42, 42);
-  color: lime;
-  background-color: rgb(42, 42, 42);
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+  background: #434343;
+  color: rgb(57, 229, 252);
+  /* background-color: rgb(42, 42, 42); */
+  background-color: black;
+  background-image: url("https://www.transparenttextures.com/patterns/grid.png");
 }
 
 body {
@@ -37,7 +38,7 @@ h6 {
 }
 
 a {
-  color: lime;
+  color: rgb(57, 229, 252);
   text-decoration: none;
 }
 
@@ -56,15 +57,15 @@ a {
   position: relative;
   min-height: 100vh;
   margin-top: 10%;
-  background-color: rgb(42, 42, 42);
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+  /* background-color: rgb(42, 42, 42);
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png"); */
 }
 
 .container {
   text-align: center;
   /* padding-bottom: 2.5rem; */
-  background-color: rgb(42, 42, 42);
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+  /* background-color: rgb(42, 42, 42);
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png"); */
 }
 
 .img-fluid {
@@ -77,9 +78,9 @@ a {
   justify-content: space-evenly;
   flex-wrap: wrap;
   box-shadow: -9px 9px 13px black;
-  border: 2px dotted #505050;
+  border: 2px solid #666666;
   border-radius: 3px;
-  background-color: rgb(42, 42, 42);
+  /* background-color: rgb(42, 42, 42); */
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -102,39 +103,40 @@ a {
 }
 
 .nav-item:hover {
-  background: lime;
-  color: rgb(17, 17, 17);
+  background: rgb(57, 229, 252);
+  color: rgb(66, 66, 66);
   /* border: 1px solid rgb(17, 17, 17); */
   border-radius: 3px;
 }
 
 .nav-link {
-  color: lime;
+  color: rgb(57, 229, 252);
 }
 
 .nav-link:hover {
   border: none;
-  color: rgb(17, 17, 17);
+  color: rgb(66, 66, 66);
 }
 
 .nav-link.active.port-nav {
-  color: rgb(17, 17, 17);
-  background-color: lime;
-  border: 1px solid rgb(17, 17, 17);
+  color: black;
+  background-color: rgb(57, 229, 252);
+  border: 1px solid rgb(66, 66, 66);
 }
 
 .nav-link.active.port-nav:hover {
   color: rgb(17, 17, 17);
-  background-color: lime;
+  background-color: rgb(57, 229, 252);
   /* border: 1px solid rgb(17, 17, 17); */
   /* border-radius: 25px; */
 }
 
 .card {
   box-shadow: -9px 9px 13px black;
-  border: 2px dotted #505050;
+  border: 2px solid #666666;
   border-radius: 3px;
-  background-color: rgb(42, 42, 42);
+  /* background-color: rgb(42, 42, 42); */
+  background-color: black;
   margin-top: 4%;
   margin-left: 2%;
   margin-right: 2%;
@@ -156,8 +158,8 @@ a {
 
 .my-link:hover {
   transform: scale(1.1);
-  color: rgb(17, 17, 17);
-  background-color: lime;
+  color: rgb(66, 66, 66);
+  background-color: rgb(57, 229, 252);
   border-radius: 5px;
   padding: 0.5%;
 }
@@ -178,8 +180,10 @@ a {
   margin-left: 2%;
   margin-right: 2%;
   text-align: center;
-  background-color: rgb(42, 42, 42);
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+  border: 2px solid #666666;
+  border-radius: 3px;
+  /* background-color: rgb(42, 42, 42);
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png"); */
 }
 
 .initials {
@@ -188,6 +192,6 @@ a {
 
 footer {
   display: block;
-  background-color: rgb(42, 42, 42);
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+  /* background-color: rgb(42, 42, 42);
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png"); */
 }
