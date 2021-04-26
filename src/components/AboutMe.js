@@ -9,15 +9,16 @@ function AboutMe() {
           I am interested in becoming involved in software development,
           particularly in the context of cloud infrastructure, cybersecurity and
           software engineering (full-stack). Certified in Microsoft Azure
-          Fundamentals (AZ-900), and a graduate of Columbia University School of
-          Engineering's Full Stack Web Developer Boot Camp.
+          Fundamentals (AZ-900), and a graduate/certificate recipient of
+          Columbia University School of Engineering's Full Stack Web Developer
+          Bootcamp.
         </h6>
 
         <h6>
           I'm experienced in HTML/CSS Web Development, JavaScript/jQuery,
-          NodeJS, Express.js, MySQL, MongoDB, React.js, and .NET in deploying
+          Node.js, Express.js, MySQL, MongoDB, React.js and .NET in deploying
           Azure resources and general infrastructure via Azure/MS PowerShell,
-          CLI, and the Cloud Shell.
+          CLI, and the Cloud Shell, as well as the Azure Portal.
         </h6>
 
         <h6>
