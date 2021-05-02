@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Project from './Project';
-import projects from '../projects.json';
+import React, { Component } from "react";
+import Project from "./Project";
+import projects from "../projects.json";
 
 class MyProjects extends Component {
   state = {
@@ -14,7 +14,7 @@ class MyProjects extends Component {
 
   render() {
     return (
-      <div className='container'>
+      <div className="container">
         <h2>What I've Been Working On</h2>
         <div>
           {this.state.projects.map((project) => (
@@ -25,6 +25,7 @@ class MyProjects extends Component {
               image={project.image}
               url={project.url}
               repo={project.repository}
+              description={project.description}
               // handleClick={this.handleClick}
             />
           ))}
