@@ -4,41 +4,47 @@
     "title": "Trowel",
     "image": "images/trowel-app.png",
     "url": "https://trowel-app.herokuapp.com/",
-    "repository": "https://github.com/benrgross/Trowel"
+    "repository": "https://github.com/benrgross/Trowel",
+    "description": "As a gardener or gardening business proprieter, manage the vast array of plants in any given garden account with ease"
   },
   {
     "id": 2,
     "title": "Pipe Cleaner",
     "image": "images/PipeCleaner-app.png",
     "url": "https://four-top.herokuapp.com/",
-    "repository": "https://github.com/benrgross/Party-Of-Four"
+    "repository": "https://github.com/benrgross/Party-Of-Four",
+    "description": "Keeping a meal log for your gastrointestinal health is an important practice in both general diet management and reaching a diagnosis during treatment. Start tracking your foods today!"
   },
   {
     "id": 3,
     "title": "Rec",
     "image": "images/Rec-app-home.png",
     "url": "https://jimbopulos.github.io/rec-app/",
-    "repository": "https://github.com/jimbopulos/rec-app"
+    "repository": "https://github.com/jimbopulos/rec-app",
+    "description": "Turn any monotonous daily task into pleasurable moments of musical discovery with Rec"
   },
   {
     "id": 4,
     "title": "Google Search Library",
     "image": "images/google-books-home.png",
     "url": "https://google-search-library.herokuapp.com/",
-    "repository": "https://github.com/jimbopulos/Google-Books-searchLibrary"
+    "repository": "https://github.com/jimbopulos/Google-Books-searchLibrary",
+    "description": "Leverage the wide selection of books from Google Books and save them to your own personal catalog"
   },
   {
     "id": 5,
     "title": "Employee Directory",
     "image": "images/user-directory2.png",
     "url": "https://jimbopulos.github.io/employee-directory/",
-    "repository": "https://github.com/jimbopulos/employee-directory"
+    "repository": "https://github.com/jimbopulos/employee-directory",
+    "description": "Quickly locate and organize the list of employees in a company to retrieve their professional contact information"
   },
   {
     "id": 6,
     "title": "Build-a-Budget",
     "image": "images/build-a-budget-app.png",
     "url": "https://budget-tracker-116.herokuapp.com/",
-    "repository": "https://github.com/jimbopulos/build-a-budget"
+    "repository": "https://github.com/jimbopulos/build-a-budget",
+    "description": "Manage all of your personal expenses whether you have an internet connection or not - your information will be saved regardless!"
   }
 ]
