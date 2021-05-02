@@ -16,29 +16,25 @@ function Project(props) {
           />
         </div>
         <div className="info">
-          <h6>
-            Deployed URL{" "}
-            <a
-              className="my-link"
-              href={props.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here <i className="fas fa-external-link-alt"></i>
-            </a>
-          </h6>
-          <h6>
-            Repository{" "}
-            <a
-              className="my-link"
-              href={props.repo}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here <i className="fas fa-external-link-alt"></i>
-            </a>
-          </h6>
-          <h5>{props.description}</h5>
+          <a
+            className="my-link"
+            href={props.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Deployed URL <i className="fas fa-external-link-alt"></i> |
+          </a>
+          <a
+            className="my-link"
+            href={props.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Repository <i className="fas fa-external-link-alt"></i>
+          </a>
+          <hr />
+          <p>{props.description}</p>
         </div>
       </div>
     </div>

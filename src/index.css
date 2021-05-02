@@ -15,6 +15,19 @@ body {
   margin: 0;
 }
 
+hr {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 h1,
 h2,
 h3 {
