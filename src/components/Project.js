@@ -17,7 +17,7 @@ function Project(props) {
         </div>
         <div className="info">
           <h6>
-            Access deployed application URL{" "}
+            Deployed URL{" "}
             <a
               className="my-link"
               href={props.url}
@@ -28,7 +28,7 @@ function Project(props) {
             </a>
           </h6>
           <h6>
-            Access the {props.title} repository{" "}
+            Repository{" "}
             <a
               className="my-link"
               href={props.repo}
@@ -38,6 +38,7 @@ function Project(props) {
               here <i className="fas fa-external-link-alt"></i>
             </a>
           </h6>
+          <h5>{props.description}</h5>
         </div>
       </div>
     </div>
