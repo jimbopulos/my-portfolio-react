@@ -22,19 +22,20 @@ function Project(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Deployed URL <i className="fas fa-external-link-alt"></i> |
+            Deployed URL <i className="fas fa-external-link-alt"></i>
           </a>
+          <span> | </span>
           <a
             className="my-link"
             href={props.repo}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Repository <i className="fas fa-external-link-alt"></i>
           </a>
           <hr />
-          <p>{props.description}</p>
+          <p>What: {props.description}</p>
+          <p>Technology: {props.tech}</p>
         </div>
       </div>
     </div>

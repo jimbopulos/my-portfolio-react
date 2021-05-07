@@ -26,6 +26,7 @@ class MyProjects extends Component {
               url={project.url}
               repo={project.repository}
               description={project.description}
+              tech={project.tech}
               // handleClick={this.handleClick}
             />
           ))}
