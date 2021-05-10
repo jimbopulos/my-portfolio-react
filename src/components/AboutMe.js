@@ -47,6 +47,11 @@ function AboutMe() {
           className="tech-icon"
         />
         <img
+          src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+          alt="NodeJS"
+          className="tech-icon"
+        />
+        <img
           src="http://pngimg.com/uploads/mysql/small/mysql_PNG23.png"
           alt="MySQL"
           className="tech-icon"
