@@ -6,12 +6,10 @@ function AboutMe() {
       <div className="card">
         <h2>About Me</h2>
         <h6>
-          I am interested in becoming involved in software development,
-          particularly in the context of cloud infrastructure, cybersecurity and
-          software engineering (full-stack). Certified in Microsoft Azure
-          Fundamentals (AZ-900), and a graduate/certificate recipient of
-          Columbia University School of Engineering's Full Stack Web Developer
-          Bootcamp.
+          Actively seeking employment in Software Engineering. Certified in
+          Microsoft Azure Fundamentals (AZ-900), and earned a certificate for an
+          intensive coding bootcamp through Columbia University School of
+          Engineering.
         </h6>
 
         <h6>
