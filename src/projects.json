@@ -37,6 +37,15 @@
   },
   {
     "id": 5,
+    "title": "Just Tech News",
+    "image": "images/just-tech-news-dashboard.png",
+    "url": "https://just-tech-news-feed.herokuapp.com/",
+    "repository": "https://github.com/jimbopulos/python-newsfeed",
+    "description": "Stay up to date with this social platform for posting, commenting, and upvoting relevant tech industry articles",
+    "tech": "Python | MySQL | SQLAlchemy | Flask | Bcrypt | Dot-env | HTML | CSS | JavaScript"
+  },
+  {
+    "id": 6,
     "title": "Employee Directory",
     "image": "images/user-directory2.png",
     "url": "https://jimbopulos.github.io/employee-directory/",
@@ -45,7 +54,7 @@
     "tech": "HTML | CSS | Bootstrap | React.js | Node.js | AXIOS | Randomuser API"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Build-a-Budget",
     "image": "images/build-a-budget-app.png",
     "url": "https://budget-tracker-116.herokuapp.com/",
