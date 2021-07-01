@@ -1,15 +1,24 @@
 [
   {
     "id": 1,
+    "title": "Meeper",
+    "image": "images/merng-app-home.png",
+    "url": "https://clever-galileo-e0340b.netlify.app/",
+    "repository": "https://github.com/jimbopulos/merng-social-media-app",
+    "description": "In a time where virtual connection is primary means of communication, keep in touch with friends/family via posts, comments, and likes!",
+    "tech": "HTML | CSS | Semantic UI CSS | Semantic UI React | JavaScript | MongoDB | Express.js | React.js | Node.js | GraphQL | Apollo | React-router | Moment.js | JSON Web Token | Bcrypt"
+  },
+  {
+    "id": 2,
     "title": "Trowel",
     "image": "images/trowel-app.png",
     "url": "https://trowel-app.herokuapp.com/",
     "repository": "https://github.com/benrgross/Trowel",
     "description": "As a gardener or gardening business proprieter, manage the vast array of plants in any given account with ease",
-    "tech": "HTML | CSS | Bootstrap | JavaScript | MongoDB | Mongoose | Express.js | React | Node.js | Passport"
+    "tech": "HTML | CSS | Bootstrap | JavaScript | MongoDB | Mongoose | Express.js | React.js | Node.js | Passport"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Pipe Cleaner",
     "image": "images/PipeCleaner-app.png",
     "url": "https://four-top.herokuapp.com/",
@@ -18,7 +27,7 @@
     "tech": "HTML/Handlebars | CSS | Bulma | JavaScript | MySQL | Sequelize | Express.js | Node.js | Passport"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Rec",
     "image": "images/Rec-app-home.png",
     "url": "https://jimbopulos.github.io/rec-app/",
@@ -27,7 +36,7 @@
     "tech": "HTML | CSS | Semantic UI | JavaScript | jQuery | AJAX | TheAudioMusicDB | Owl Carousel"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Google Search Library",
     "image": "images/google-books-home.png",
     "url": "https://google-search-library.herokuapp.com/",
@@ -36,7 +45,7 @@
     "tech": "CSS | Bootstrap | MongoDB | Express.js | React.js | Node.js | Google Books API"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Just Tech News",
     "image": "images/just-tech-news-dashboard.png",
     "url": "https://just-tech-news-feed.herokuapp.com/",
@@ -45,7 +54,7 @@
     "tech": "Python | MySQL | SQLAlchemy | Flask | Bcrypt | Dot-env | HTML | CSS | JavaScript"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Employee Directory",
     "image": "images/user-directory2.png",
     "url": "https://jimbopulos.github.io/employee-directory/",
