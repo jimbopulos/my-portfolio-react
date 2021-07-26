@@ -6,17 +6,17 @@ function AboutMe() {
       <div className="card">
         <h2>About Me</h2>
         <h6>
-          Actively seeking employment in Software Engineering. Certified in
-          Microsoft Azure Fundamentals (AZ-900), and earned a certificate for an
-          intensive coding bootcamp through Columbia University School of
-          Engineering.
+          I am a Software Engineer, currently employed as a Jr. System
+          Administrator at Thrasio. Certified in Microsoft Azure Fundamentals
+          (AZ-900), and earned a certificate for an intensive coding bootcamp
+          through Columbia University School of Engineering.
         </h6>
 
         <h6>
           I'm experienced in HTML/CSS Web Development, JavaScript/jQuery,
-          Node.js, Express.js, MySQL, MongoDB, React.js and .NET in deploying
-          Azure resources and general infrastructure via Azure/MS PowerShell,
-          CLI, and the Cloud Shell, as well as the Azure Portal.
+          Python, Node.js, Express.js, MySQL, MongoDB, React.js and .NET in
+          deploying Azure resources and general infrastructure via Azure/MS
+          PowerShell, CLI, and the Cloud Shell, as well as the Azure Portal.
         </h6>
 
         <h6>
